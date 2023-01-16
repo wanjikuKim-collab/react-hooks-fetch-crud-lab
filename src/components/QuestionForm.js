@@ -35,7 +35,7 @@ function QuestionForm({handleAddNewQuestion}) {
           formData.answer3,
           formData.answer4
         ],
-        correctIndex: formData.correctIndex
+        correctIndex: parseInt(formData.correctIndex)
       }),
     }).then(resp=>resp.json())
     .then(newQuestion=> handleAddNewQuestion(newQuestion))

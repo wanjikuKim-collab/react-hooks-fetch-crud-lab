@@ -76,6 +76,17 @@
       ],
       "correctIndex": 0,
       "id": 7
+    },
+    {
+      "prompt": "When adding an item in an array which will be stored in state, the most appropriate method to use is?",
+      "answers": [
+        "filter",
+        "map",
+        "spread operator",
+        "sort"
+      ],
+      "correctIndex": 2,
+      "id": 8
     }
   ]
 }
